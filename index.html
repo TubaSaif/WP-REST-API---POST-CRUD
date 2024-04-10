@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API App</title>
+</head>
+<body>
+    <section>
+        <div>
+            <div class="logo-wrapper">
+                <h1>WP REST API POST CRUD</h1>
+            </div>
+            <form id="post-submit-form">
+                <textarea class="post-title" placeholder="Write post title here..?" maxlength="280"></textarea>
+                <textarea class="post-content" placeholder="Write post description here...?" maxlength="280"></textarea>
+                <p id="content-counter" class="content-counter"></p>
+                <button id="publish-post">Publish</button>
+            </form>
+            <hr />
+            <a href="#" id="fetch-post">Fetch Posts</a>
+            <div class="post-wrapper"></div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js" defer></script>
+</body>
+</html>
